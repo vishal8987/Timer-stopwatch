@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="timer">
+    <h1>Timer and Stopwatch</h1>
+
+    <div class="box">
+  <h2>Timer</h2>
+  <input type="number" id="timerInput" placeholder="Enter time in seconds" />
+  <button onclick="startTimer()">Start</button>
+  <button onclick="stopTimer()">Stop</button>
+  <button onclick="resetTimer()">Reset</button>
+  <p>Time remaining: <span id="timerDisplay">0</span></p>
+
+  <h2>Stopwatch</h2>
+  <button onclick="startStopwatch()">Start</button>
+  <button onclick="stopStopwatch()">Stop</button>
+  <button onclick="resetStopwatch()">Reset</button>
+  <p>Elapsed time: <span id="stopwatchDisplay">0:0:0</span></p>
+</div>
+</div>
+ <script src="/app.js"></script>
+</body>
+</html>
